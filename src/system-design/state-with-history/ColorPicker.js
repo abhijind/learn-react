@@ -1,4 +1,4 @@
-import useStateWithHistory from "../hooks/useStateWithHistory";
+import useStateWithHistory from "./useStateWithHistory";
 
 export default function ColorPicker() {
   const [color, push, undo, redo, reset] = useStateWithHistory(
