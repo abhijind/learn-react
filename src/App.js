@@ -1,5 +1,5 @@
 import "./styles.css";
-import PostCard from "./PostCard";
+import PostCard from "./components/PostCard";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import ColorPicker from "./components/ColorPicker";
 export default function App() {

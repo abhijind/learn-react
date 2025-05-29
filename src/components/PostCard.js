@@ -1,5 +1,5 @@
 import { useQuery, useSuspenseQuery } from "@tanstack/react-query";
-import postQueryOptions from "./usePostQuery";
+import postQueryOptions from "../hooks/usePostQuery";
 
 export default function PostCard({ postId }) {
   const postQuery = useQuery(postQueryOptions(postId));
